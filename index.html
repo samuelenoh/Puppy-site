@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <title>puppy-shop</title>
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <header>Puppy's-Hub</header>
+  <div class="wrapper">
+    <ul>
+      <li><a href="index.html" id="home">Home</a> </li>
+      <li>Category of Puppy 
+        <ul id="categoryList">
+        </ul>
+      </li>
+      <li>About</li>
+      <li class="cart" onclick="toggleCartView()">Cart <span id="countCart">0</span>
+        <ul id="cart"></ul>
+      </li>
+    </ul>
+    
+  </div>
+
+
+  <div id="container" class="container-wrapper">
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>Home of Men's Best Friend</h1>
+        <p>what better way to spend your money, <br>
+        than to get yourself not just a puppy, but a companion, <br>
+      amd a friend, a best friend !</p>
+      <button class="btn"><a href="#">Buy</a></button>
+      </div>
+      <div id="cart-items-list" class="cart-items card">
+      </div>
+    </div>
+    <main id="cat-content" class="grid-container">
+      </main>
+       
+   
+
+  </div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
